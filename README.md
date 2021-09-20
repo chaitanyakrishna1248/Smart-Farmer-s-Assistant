@@ -15,3 +15,5 @@ The Firebase Host ID and authorization key is taken from the Google Firebase dat
 used for sending the values received by the board to their respective variables in the firebase.
 The real time collected here is sent to the website to be displayed graphically. The code is
 uploaded to NodeMCU using Arduino IDE.
+
+We also applied a machine learning algorithm called Polynomial regression to a dataset whose features are parameters of soil and the output is the yield based on the parameters of soil recorded. 
