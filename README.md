@@ -2,7 +2,7 @@
 We are a group of students from VIT,Vellore who worked on a project assisting farmers. In our work we have integrated the basic but very strongly needed values available from the farms to help the farmers with their farming to the maximum extent as they have the values stored lively and they can take informed decisions hereafter instead of believing in the age old wisdoms of nature and climate which are actually changing as time goes on.
 
 Our prototype is so simple to use and easily upgradable to even bigger farms. Our website is very easy to use and graphical data shown can be interpreted by anyone and
-easily understood. We have used simple hardware components to make the product cheap so that it is affordable to everyone. We have given option to know the weather details of the given location also using an API.
+easily understood. We have used simple hardware components to make the product cheap so that it is affordable to everyone. We have given option to know the weather details of the given location using an API.
 
 # About the System
 There are 3 sensors used in this project namely, DHT11 sensor, Ultrasonic sensor, and Soil moisture sensor. 
