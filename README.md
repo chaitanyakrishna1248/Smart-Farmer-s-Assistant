@@ -8,12 +8,11 @@ easily understood. We have used simple hardware components to make the product c
 There are 3 sensors used in this project namely, DHT11 sensor, Ultrasonic sensor, and Soil moisture sensor. 
 All sensors are connected to the Arduino UNO board together with the help of bread board and jumpers.
 1. DHT11 and ultrasonic sensors are digital sensors and soil sensor is an Analog sensor and thus they are connected to their respective pins in the Arduino. 
-2. Then an LED is connected to a digital pin to activate it when the temperature is more than 80oF and the soil moisture is less than 40% which indicates the irrigation system of the farm. 
-Then 2 digital pins are connected to NodeMCU for serial communication transmission and reception.
-The data from Arduino is received serially continuously by the NodeMCU. 
-The Firebase Host ID and authorization key is taken from the Google Firebase database that we have created and
+2. An LED is connected to a digital pin to activate it when the temperature is more than 80oF and the soil moisture is less than 40% which indicates the irrigation system of the farm. 
+3. 2 digital pins are connected to NodeMCU for serial communication transmission and reception.
+4. The data from Arduino is received serially continuously by the NodeMCU. 
+5. The Firebase Host ID and authorization key is taken from the Google Firebase database that we have created and
 used for sending the values received by the board to their respective variables in the firebase.
-The real time collected here is sent to the website to be displayed graphically. The code is
+6. The real time collected here is sent to the website to be displayed graphically. The code is
 uploaded to NodeMCU using Arduino IDE.
-
-We also applied a machine learning algorithm called Polynomial regression to a dataset whose features are parameters of soil and the output is the yield based on the parameters of soil recorded. 
+7. We also applied a machine learning algorithm called Polynomial regression to a dataset whose features are parameters of soil and the output is the yield based on the parameters of soil recorded. 
